@@ -1,0 +1,165 @@
+.body
+{
+    width: 160px;
+    height: 160px;
+    background:peachpuff;
+    border: 16px solid black;
+    border-radius: 50%;
+    position:absolute;
+    margin: auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.hand,.handd
+{
+width: 20px;
+height:270px;
+background:palevioletred;
+border-radius: 50px;
+transform:rotate(30deg);
+position:absolute;
+top: -39px;
+left:0;
+right:0;
+bottom:0;
+margin: auto;
+}
+
+.handd
+{
+transform:rotate(-30deg);
+}
+
+
+.bell,.belle
+{
+width: 70px;
+height: 50px;
+background:palevioletred;
+border-radius:50% 50% 10% 10%;
+transform: rotate(30deg);
+position:absolute;
+top: -210px;
+left: 100px;
+right: 10px;
+bottom: 0;
+margin: auto;
+}
+
+.belle
+{
+transform: rotate(-30deg);
+left:-80px;
+}
+
+.handle
+{
+width: 75px;
+height: 50px;
+border:8px solid black;
+border bottom: 8px solid transparent;
+border-radius: 50px 50px 0 0;
+position:absolute;
+margin: auto;
+top:-250px;
+left:0;
+right:0;
+bottom:0;
+}
+
+.line,.lines
+{
+width:6px;
+height:130px;
+background:red;
+position:absolute;
+margin: auto;
+top:0;
+left:0;
+right:0;
+bottom:0;
+}
+
+.lines
+{
+transform: rotate(90deg);
+}
+
+.bodies
+{
+    width: 100px;
+    height: 100px;
+    background:black;
+    border-radius: 50%;
+    position:absolute;
+    margin: auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.hour,.minutes,.second
+{
+    width:8px;
+    height:35px;
+    background:white;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top:0;
+    left:-30px;
+    right:0;
+    bottom:0;
+    transform:rotate(90deg);
+}
+
+.minutes
+{
+left:0;
+top: -50px;
+height:50px;
+transform:none;
+transform-origin: bottom;
+animation:tick-tock 3600s steps(60,end) infinite;
+
+}
+
+.second
+{
+left:0;
+top:-50px;
+background:palevioletred;
+width: 2px;
+height:50px;
+transform:none;
+transform-origin: bottom;
+animation:tick-tock 60s steps(60,end) infinite;
+
+}
+
+
+.center,.p
+{
+    width: 16px;
+    height: 16px;
+    background:red;
+    border-radius: 50%;
+    position:absolute;
+    margin: auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+@keyframes tick-tock
+{
+to 
+{
+transform:rotate(360deg);
+}
+}
