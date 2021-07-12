@@ -1,0 +1,31 @@
+.canva{
+	border:1px solid rgb(248, 247, 247);
+	 display: grid;
+	 grid-template-columns: repeat(20,20px);
+	 grid-template-rows: repeat(20,20px);
+	 width: 400px;
+	 height: 400px;
+	 border-radius: 1px;
+	 background: rgb(12, 12, 12);
+	 margin-top: 200px;
+   }
+   .grid{
+	 border:1px solid rgb(24, 6, 6);
+	 width:17px;
+	 height: 17px;
+	 /*background-color: blueviolet;*/
+   }
+   .grid-item{
+	 padding: 1em;
+	 border:1px solid #ddd;
+	 text-align: center;
+   }
+   .clicked{
+	 background-color:palevioletred;
+	 border: 1.5px solid black;
+	 width:17px;
+	 height:17px;
+   }
+   .clicked:hover{
+	 background-color: rgb(155, 199, 73);
+   }
