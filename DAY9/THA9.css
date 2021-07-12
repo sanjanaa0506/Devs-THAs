@@ -1,0 +1,59 @@
+.canva{
+    border:1px solid rgb(241, 104, 104);
+     display: grid;
+     grid-template-columns: repeat(6,100px);
+     grid-template-rows: repeat(6,60px);
+     width: 600px;
+     height: 360px;
+     border-radius: 1px;
+     background: rgb(1, 13, 17);
+     margin-top: 90px;
+   }
+
+   .top{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 600px;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-between;
+   
+   }
+   .grid{
+     border:1px solid rgb(241, 104, 104);
+     width:100px;
+     height: 60px;
+     /*background-color: blueviolet;*/
+   }
+   .grid-item{
+     padding: 1em;
+     border:1px solid #ddd;
+     text-align: center;
+   }
+   .clicked{
+     background-color: rgb(211, 11, 11);
+     border: 1.5px solid rgb(211, 14, 14);
+     width:220px;
+     height:50px;
+   }
+   .clicked:hover{
+     background-color: rgb(226, 199, 195);
+   }
+   .gridclicked{
+    background-color: rgb(202, 6, 6);
+}
+.booked{
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-top: 10%;
+  
+}
+
+   
+   
