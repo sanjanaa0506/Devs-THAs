@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+  --hue-correct:145;
+  --hue-wrong:0;
+}
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  background-color:rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
+.nav{
+  background-color:#3d3e3f ;
+  height: 150px;
+  width: 100%;
+display: flex;
+ float: left;
+/*hua kya name change*/
+ }
+
+
+
+ img{
+ 
+ position: relative;
+margin-left: 960px;
+top: 25%;
+
+
+} 
+ h1{
+  position: relative;
+  top: 25%;
+   margin-left: 100px;
+   align-content: center;
+   display: flex;
+   font-size: 45px;
+   color: #b9b6b6;
+ }
+
+ h2{
+   position: relative;
+  color:#b9b6b6 ;
+  margin-left: 300px;
+  font-size: 40px;
+  top: 30%;
+  
+ }
+ .body{
+   padding: 0;
+   margin: 0;
+   display: flex;
+   width: 100vw;
+   height:60vh;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+
+
+ }
+#timer{
+  font-size: 40px;
+  margin-left: 1310px;
+  margin-top: 55px;
+  position: absolute;
+ 
+} 
+.container{
+ padding:60px 140px;
+  position: relative;
+ top: 80px;
+  height:450px;
+  
+ text-align: center;
+  width:680px;
+  max-width: 80%;
+  background-color: #c98181;
+  box-shadow: inset 1px 1px 14px 1px #3f3f41;
+  border-radius: 20px ;
+ 
+}
+
+.btn-grid{
+ display: flex;
+ flex-direction: column;
+  grid-template-columns: repeat(1,auto);
+  gap:10px;
+  margin:20px 0;
+  height: 400%;
+
+}
+#answer-buttons .btn{
+  cursor: pointer;
+  height: 50px;
+  border-radius: 10px ;
+  box-shadow: inset 1px 1px 14px 1px #dadadf;
+  
+
+  width:400px;
+}
+#answer-buttons .btn:hover{
+  transform: scale(1.03); 
+ transform: transform 300ms;
+}
+
+.control{
+  padding:30px 0;
+}
+#start{
+  width: 20%;
+  height: 35px;
+  gap:20px;
+  background-color: #8d8f91;
+  cursor: pointer;
+
+}
+
+#next{
+  width: 20%;
+  height: 35px;
+  background-color: #8d8f91;
+  cursor: pointer;
+}
+
+.btn.correct{
+ background: rgb(31, 153, 7);
+ 
+}
+
+.btn.wrong1{
+  background: rgb(202, 52, 26);
+  
+}
+
+.controls
+{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide{
+  display: none;
+}
