@@ -1,0 +1,104 @@
+body
+{
+/*color:lightskyblue;*/
+background-color: black;
+font-family: 'Open Sans',sans-serif;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+margin: 0;
+}
+
+.stores
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+#mouse
+{
+    background-color:lawngreen;  
+}
+
+#cat
+{
+    background-color:lawngreen;  
+}
+*/
+
+
+.store
+{
+background-color:hotpink;
+display: flex;
+border-radius: 100px;
+align-items: center;
+justify-content: center;
+margin: 10px;
+height:500px;
+width: 300px;
+cursor: pointer;
+}
+
+
+.result img
+{
+object-fit: cover;
+height:100%;
+width: 100%;
+}
+
+.buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*
+#catbtn
+{
+    background-color: palevioletred;
+    
+}
+#mousetn
+{
+    background-color: palevioletred;
+    
+}
+#rabtn:hover
+{
+color:limegreen;
+}*/
+
+
+button
+{
+    background-color:lawngreen;
+    border: palevioletred;
+    display: inline-block;
+    border-radius: 60px;
+  
+    font-size:large;
+    padding: 14px;
+    margin: 10px;
+    width: 300px;
+    cursor: pointer;
+    
+}
+
+button:active
+{
+    transform: scale(0.80);
+    transform: translate(4px);
+}
+button:hover
+{
+color:lightpink;
+
+}
