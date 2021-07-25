@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App h1{
+  text-align: center;
+}
+.unique{
+  width: 25%;
+  display: inline-block;
+  border:10px solid transparent;
+}
+.unique .image{
+  width:350px;
+  height:350px;
+  background-size: cover;
+  cursor: pointer;
+  background-position: center;
+
+  
+}
+.meme button{
+  padding:5px;
+  margin:10px;
+}
+
+.meme img{
+  width: auto;
+  height:500px;
+}
+.meme{
+  text-align: center;
+}
+.meme input{
+  margin:5px;
+  padding: 10px;
+
+}
+.meme button{
+  cursor: pointer;
+}
