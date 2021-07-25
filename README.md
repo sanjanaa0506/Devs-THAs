@@ -2,7 +2,7 @@ Hello!!! :)
 
 Devs-THAs:
 
-Only Front-end THAs are added in this Repo.
+Front-end THAs are added in this Repo.
 
 THA1
 THA2
@@ -18,3 +18,18 @@ THA11
 THA12
 THA13
 THA14
+THA15
+THA16
+THA17
+THA18
+THA19
+THA20
+THA21
+
+
+
+
+
+
+
+
