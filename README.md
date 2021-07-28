@@ -25,6 +25,8 @@ THA18
 THA19
 THA20
 THA21
+![sanjanaa's GitHub stats](https://github-readme-stats.vercel.app/api?username=sanjanaa0506&show_icons=true&theme=radical&hide=contribs,prs,stars,ibs,issues )
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sanjanaa0506&layout=compact)](https://github.com/sanjanaa0506/github-readme-stats)
 
 
 
